@@ -1,0 +1,93 @@
+@charset"utf-8";
+
+
+
+
+
+#fullpage{
+     text-align: center;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #711835;
+}
+#fp-nav ul li .fp-tooltip{
+    color: #711835;
+}
+#section0{
+    background: url(../images/main01.jpg)no-repeat;
+    background-size:cover;
+}
+#section0 h1{
+    font-size: 50px;
+    color: #F37462;
+}
+#section1{
+    background: url(../images/main02.jpg)no-repeat;
+    background-size:cover;
+}
+#section1 h1{
+     font-size: 50px;
+    color: #FFFF8E;
+}
+
+#section2{
+     background: url(../images/hot-chocolate-1224046_960_720.jpg)no-repeat;
+    background-size:cover;
+}
+#section2 h1{
+        font-size: 50px;
+}
+.fp-controlArrow,.fp-controlArrow{
+    opacity: 0.6;
+}
+#section3{
+     background: url(../images/cozy-cat.jpg)no-repeat;
+    background-size:cover;
+}
+#section3 h1{
+     font-size: 50px;
+    color:#097373;
+}
+
+
+/*패널메뉴*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+

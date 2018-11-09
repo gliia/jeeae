@@ -1,0 +1,87 @@
+@charset"utf-8";
+
+body{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+/*첫번째 슬라이드*/
+.slick-slide img{
+    width: 100%;
+}
+.prevBtn,.nextBtn{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    z-index: 1;
+}
+
+.nextBtn{
+    right: 30px;
+}
+.prevBtn{
+    left:30px;
+}
+.slick-dots{
+    text-align: center; 
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.slick-dots li{
+    width: 15px;
+    height: 15px;
+     border-radius: 50%;
+     background: #ddd;
+/*     float: left;*/
+    margin: 0 3px;
+    display: inline-block;
+}
+.slick-dots li.slick-active{
+    background: #333;
+}
+.slick-dots button{
+    border: 0;
+    font-size: 0;
+    padding: 0;
+ 
+}
+
+
+
+
+
+
+/*두번째슬라이드*/
+.regular2 .slick-slide{
+    margin: 10px;
+}
+.regular2 .slick-list{
+    margin: 0 10px;
+}
+.regular2.prevBtn{
+    left:40px;
+}
+.regular2.nextBtn{
+    right:40px;
+}
+.regular2 .slick-dots{
+        position: static;
+    }
+
+
+
+
+
+
+
+
+

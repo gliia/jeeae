@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">   
+ <title>fullpage</title>
+    <style type="text/css">    
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript" src="../dist/fullpage.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+	var myFullpage = new fullpage('#fullpage', {
+		sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        navigation:true,
+        navigationTooltips: ['cafe', 'lounge','mood','room'],
+        showActiveTooltip: true,
+	});
+ })
+</script>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    </head>
+    
+    
+<body>
+<!--풀페이지시작 -->
+<div id="fullpage">
+        <div class="section active" id="section0">
+              <h1>with.COFFEE</h1>
+         </div>
+        <div class="section" id="section1">
+            <div class="slide "><h1>with.SUNSHINE</h1></div>
+            <div class="slide active"><h1>Shining</h1></div>
+            <div class="slide"><h1>Dazzling</h1></div>
+            <div class="slide"><h1>And Cozy</h1></div>
+        </div>
+        <div class="section" id="section2"><h1> Sweet
+            &amp; Warm</h1></div>
+        <div class="section" id="section3"><h1>Be LAZzzz</h1></div>
+</div>
+<!--풀페이지 끝 -->
+    
+<!--  패널메뉴 시작    -->
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<!--  패널메뉴 시작    -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+ 
+ </body>    
+</html>
